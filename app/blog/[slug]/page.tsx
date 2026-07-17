@@ -1,5 +1,5 @@
 import { blogPosts } from "../../../lib/blogData";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { Calendar, Clock, ChevronLeft } from "lucide-react";
 import type { Metadata } from "next";
@@ -54,6 +54,10 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   if (!post) {
     notFound();
+  }
+
+  if (post.customUrl) {
+    redirect(post.customUrl);
   }
 
   return (

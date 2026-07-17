@@ -7,9 +7,96 @@ export interface BlogPost {
   icon: string;
   content: string;
   readTime: string;
+  customUrl?: string;
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "most-runs-in-ipl",
+    title: "Most Runs in IPL History",
+    excerpt: "Who has scored the most runs in IPL history? Virat Kohli leads with 9,261 — the full all-time top scorers, single-season records and the chasing pack, updated every season.",
+    date: "July 14, 2026",
+    category: "IPL",
+    icon: "🏏",
+    readTime: "5 min read",
+    customUrl: "/most-runs-in-ipl/",
+    content: `
+      <p>There's a list. There's a chasm. And then there's the rest. Virat Kohli's 9,261 runs in the IPL, nearly two thousand more than anyone else, and all for one team, over nineteen seasons, with which he has won the tournament in consecutive years in 2025 and 2026. Whatever the arguments in other formats, the IPL run-scoring race has one name at the top.</p>
+      
+      <h3>All-Time Top Run-Scorers</h3>
+      <p>As of the end of IPL 2026:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Runs</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Virat Kohli (RCB)</td>
+            <td>9,261</td>
+            <td>283+ matches, 9 hundreds, 67 fifties</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Rohit Sharma (MI)</td>
+            <td>7,329</td>
+            <td>281 matches</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Shikhar Dhawan (PBKS)</td>
+            <td>6,769</td>
+            <td>222 matches — retired</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>The chasing pack, in which David Warner, KL Rahul, Suryakumar Yadav, and the rest are shuffled year in, year out, is found in full detail here after every season. What isn't shuffled is the podium.</p>
+      
+      <h3>The Kohli Chasm</h3>
+      <p>The second-placed Rohit Sharma trails Kohli by 1,932 runs, a lead of nearly four full seasons. Kohli's lead is a combination of freakish longevity (he is the only player to have batted in all IPL seasons for a single franchise) and one ridiculous season: 973 runs in 2016. Kohli has two Orange Caps to his name, ten years apart, which no other player has ever achieved. A full list is on our <a href="/ipl-orange-cap-purple-cap-winners/">Orange Cap winners page</a>.</p>
+      <p>Rohit Sharma, second on the list with 7,329 runs, has played for two franchises in his IPL career, and has five <a href="/ipl-winners-list/">IPL titles</a> as a captain. Shikhar Dhawan, with 6,769 runs, trails closely behind in third. He doesn't have an Orange Cap to his name, but has played 222 matches' worth of solid opening batting.</p>
+      
+      <h3>Most Runs in a Single IPL Season</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Runs</th>
+            <th>Season</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Virat Kohli</td>
+            <td>973</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>Shubman Gill</td>
+            <td>890</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Jos Buttler</td>
+            <td>863</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Vaibhav Sooryavanshi</td>
+            <td>776</td>
+            <td>2026</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Kohli's 973 has stood the test of time, even as the IPL's batting averages have risen, impact players have entered the fray, and total team scores have regularly breached 250. The record was threatened in 2026, when teenager Vaibhav Sooryavanshi of Rajasthan Royals scored 776 runs to win the <a href="/ipl-orange-cap-purple-cap-winners/">Orange Cap</a> in his debut season. He has another fifteen years or so to catch Kohli.</p>
+    `
+  },
   {
     slug: "benefits-of-verified-id-2025",
     title: "Benefits of Having a Verified Lotus Book ID in 2025",
