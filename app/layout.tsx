@@ -103,6 +103,7 @@ export default function RootLayout({
       style={{ colorScheme: 'dark' }}
     >
       <head>
+        <meta name="google-site-verification" content="x7uBQVm6lap6z7gQ0t1WrAdzTDBw_-vyx3egHbINumg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
