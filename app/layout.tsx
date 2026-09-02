@@ -25,70 +25,116 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": `${SITE_CONFIG.url}/#org`,
-      name: SITE_CONFIG.name,
-      url: `${SITE_CONFIG.url}/`,
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_CONFIG.url}/images/mahadev-book-logo.webp`,
-      },
-      description: SITE_CONFIG.description,
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          contactType: "Customer Support",
-          url: `${SITE_CONFIG.url}/contact`,
-        },
-      ],
+      "@type": "WebSite",
+      "@id": "https://mahadevplayind.com/#website",
+      "url": "https://mahadevplayind.com/",
+      "name": "Mahadev Book",
+      "inLanguage": "en"
     },
     {
-      "@type": "WebSite",
-      "@id": `${SITE_CONFIG.url}/#website`,
-      url: `${SITE_CONFIG.url}/`,
-      name: SITE_CONFIG.name,
-      inLanguage: "en-IN",
-      publisher: { "@id": `${SITE_CONFIG.url}/#org` },
+      "@type": "Organization",
+      "@id": "https://mahadevplayind.com/#organization",
+      "name": "Mahadev Book",
+      "url": "https://mahadevplayind.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mahadevplayind.com/#webpage",
+      "url": "https://mahadevplayind.com/",
+      "name": "Mahadev Book Official ID | Sports & Account Guide",
+      "description": "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+      "isPartOf": {
+        "@id": "https://mahadevplayind.com/#website"
+      }
     },
     {
       "@type": "FAQPage",
-      "@id": `${SITE_CONFIG.url}/#faq`,
-      mainEntity: [
+      "@id": "https://mahadevplayind.com/#faq",
+      "url": "https://mahadevplayind.com/",
+      "mainEntity": [
         {
           "@type": "Question",
-          name: "What is Mahadev Book?",
-          acceptedAnswer: {
+          "name": "What is Mahadev Book?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "Mahadev Book is India's top sports insights and fantasy analytics platform with an official website and mobile app.",
-          },
+            "text": "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
+          }
         },
         {
           "@type": "Question",
-          name: "How do I get a Mahadev Book ID?",
-          acceptedAnswer: {
+          "name": "How does a Mahadev Book ID work?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "You can request a verified Mahadev Book ID via our WhatsApp support channel.",
-          },
+            "text": "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process."
+          }
         },
         {
           "@type": "Question",
-          name: "Is Mahadev Book Online free?",
-          acceptedAnswer: {
+          "name": "How can I access Mahadev Book?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "Yes, Mahadev Book Registration is free. Premium features require an upgrade.",
-          },
+            "text": "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
+          }
         },
         {
           "@type": "Question",
-          name: "Where can I download Mahadev Book App?",
-          acceptedAnswer: {
+          "name": "What sports are available on Mahadev Book?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "The Mahadev Book App can be downloaded from the official Mahadev Book Website.",
-          },
+            "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+          }
         },
-      ],
-    },
-  ],
+        {
+          "@type": "Question",
+          "name": "Does Mahadev Book provide live sports information?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the site's current sports section for any live-event information and the terms that apply to its use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get help with my Mahadev Book account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find Mahadev Book login information?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What payment options are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I have trouble accessing my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find the latest Mahadev Book updates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refer to Mahadev Book's current website information and terms for the most accurate answer."
+          }
+        }
+      ]
+    }
+  ]
 };
 
 export default function RootLayout({

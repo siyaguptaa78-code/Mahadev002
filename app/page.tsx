@@ -60,36 +60,44 @@ const trustPoints = [
 
 const faqs = [
   {
-    q: "What is Mahadev Book Online Betting ID?",
-    a: "The Mahadev Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
+    q: "What is Mahadev Book?",
+    a: "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
   },
   {
-    q: "How does Mahadev Book work?",
-    a: "Mahadev Book acts as a trusted aggregator. Once you request an ID via WhatsApp, our support agents set up your credentials. You add funds via UPI or bank transfer, receive your betting chips, and log in to the official exchange site. Your winnings can be requested via WhatsApp and are transferred directly to your bank account."
+    q: "How does a Mahadev Book ID work?",
+    a: "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process."
   },
   {
-    q: "How do I register for a new Online Betting ID?",
-    a: "Simply click on any 'Get ID' button to open a chat with our verified agent on WhatsApp. Send a request, provide basic details (name, contact), choose your deposit amount, and your ID will be generated in less than 5 minutes."
+    q: "How can I access Mahadev Book?",
+    a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
   },
   {
-    q: "What games can I play with my Mahadev Book ID?",
-    a: "You can bet on all major sports including Cricket (IPL, World Cup, Test matches), Football (Premier League, UEFA), Tennis, and E-sports. You also get access to classic Indian card games like Teen Patti, Andar Bahar, and live casinos."
+    q: "What sports are available on Mahadev Book?",
+    a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
   },
   {
-    q: "How do I deposit money into my Mahadev Book account?",
-    a: "Depositing is quick and secure. Our agents will provide verified UPI IDs, GPay details, or bank accounts. Once you make the payment and send a screenshot, your betting chips will be instantly credited to your ID."
+    q: "Does Mahadev Book provide live sports information?",
+    a: "Check the site's current sports section for any live-event information and the terms that apply to its use."
   },
   {
-    q: "How do I withdraw my winnings?",
-    a: "Withdrawals are available 24/7. Text your WhatsApp agent with your ID username and the amount you want to withdraw. Provide your UPI ID or bank account details, and the funds will be transferred to you in 5 to 10 minutes."
+    q: "How can I get help with my Mahadev Book account?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
   },
   {
-    q: "Is Mahadev Book legal in India?",
-    a: "Mahadev Book operates in a legal grey area. Online betting is governed by state-specific laws in India. While there is no federal law banning online betting platforms hosted outside India, some states have their own restrictions. We advise users to check local regulations."
+    q: "How do I find Mahadev Book login information?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
   },
   {
-    q: "Is Mahadev Book safe and trusted?",
-    a: "Yes. With over 1.2 million active users and millions of completed transactions since 2018, Mahadev Book is widely regarded as India's most stable and secure online betting bookmaker."
+    q: "What payment options are supported?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+  },
+  {
+    q: "What should I do if I have trouble accessing my account?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+  },
+  {
+    q: "Where can I find the latest Mahadev Book updates?",
+    a: "Refer to Mahadev Book's current website information and terms for the most accurate answer."
   }
 ];
 

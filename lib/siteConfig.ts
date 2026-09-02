@@ -6,7 +6,7 @@ export const SITE_CONFIG = {
   tagline: "India's Most Trusted Online Betting Platform",
   url: "https://mahadevplayind.com",
   description:
-    "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
+    "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
   keywords:
     "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID, Mahadev Play India",
   ogImage: "/images/mahadev-book-banner.webp",
@@ -20,7 +20,7 @@ export const defaultMetadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   applicationName: SITE_CONFIG.applicationName,
   title: {
-    default: `${SITE_CONFIG.name} - Mahadev Book ID | Mahadev Book Official`,
+    default: "Mahadev Book Official ID | Sports & Account Guide",
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
