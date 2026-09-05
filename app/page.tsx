@@ -116,7 +116,7 @@ const tickerItems = [
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const whatsappUrl = "https://wa.me/916026703858";
+  const whatsappUrl = "https://wa.me/918360750829";
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
