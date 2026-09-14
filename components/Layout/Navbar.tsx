@@ -10,7 +10,7 @@ const navItems = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Betting App', path: '/mahadev-betting-app' },
+  { name: 'Gaming App', path: '/mahadev-gaming-app' },
   { name: 'Book ID', path: '/mahadev-book-id' },
   { name: 'FAQ', path: '/faq' },
   { name: 'Contact', path: '/contact' }

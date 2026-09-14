@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const SITE_CONFIG = {
   name: "Mahadev Book",
   applicationName: "Mahadev Book",
-  tagline: "India's Most Trusted Online Betting Platform",
+  tagline: "India's Most Trusted Online Gaming Platform",
   url: "https://mahadevplayind.com",
   description:
-    "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+    "Explore Mahadev Book information, online ID guidance, sports Gaming and gaming resources, account help, and frequently asked questions.",
   keywords:
     "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID, Mahadev Play India",
   ogImage: "/images/mahadev-book-banner.webp",
@@ -51,7 +51,7 @@ export const defaultMetadata: Metadata = {
         url: SITE_CONFIG.ogImage,
         width: 1200,
         height: 630,
-        alt: "Mahadev Book - India's Most Trusted Online Betting Platform",
+        alt: "Mahadev Book - India's Most Trusted Online Gaming Platform",
       },
     ],
   },

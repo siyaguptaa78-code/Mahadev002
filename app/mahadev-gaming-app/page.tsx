@@ -5,7 +5,7 @@ import Reveal from '../../components/UI/Reveal';
 import { Smartphone, Download, Shield, Zap, Info, Play } from 'lucide-react';
 
 const appFeatures = [
-  { title: "Live Betting Exchange", desc: "Bet on cricket, football, tennis and kabaddi while the action unfolds in real-time." },
+  { title: "Live Gaming Exchange", desc: "Game on cricket, football, tennis and kabaddi while the action unfolds in real-time." },
   { title: "Instant ID Activation", desc: "Sign up and receive your login credentials in less than 5 minutes on WhatsApp." },
   { title: "Fast Encrypted Cashouts", desc: "Priority withdrawal request processing directly within the app, hitting your account in minutes." },
   { title: "Intuitive Interface", desc: "Clean navigation, fast load times, and custom dashboards designed for Indian users." }
@@ -15,7 +15,7 @@ const installSteps = [
   { num: "1", title: "Open WhatsApp Chat", desc: "Click 'Download via WhatsApp' to request the secure app download link from our agent." },
   { num: "2", title: "Allow Unknown Sources", desc: "For Android, enable 'Install from unknown sources' in your device settings." },
   { num: "3", title: "Install the APK / App", desc: "Tap the downloaded package and complete the installation wizard." },
-  { num: "4", title: "Log In & Bet", desc: "Open the app, sign in using your verified Mahadev Book ID, and start playing." }
+  { num: "4", title: "Log In & Game", desc: "Open the app, sign in using your verified Mahadev Book ID, and start playing." }
 ];
 
 const activeMatches = [
@@ -24,7 +24,7 @@ const activeMatches = [
   { type: "⚽ Live Football", match: "Chelsea vs Liverpool", odds: "CHE: 2.40 | LIV: 1.65" }
 ];
 
-export default function BettingAppPage() {
+export default function GamingAppPage() {
   const whatsappUrl = "https://wa.me/916026703858";
 
   return (
@@ -40,7 +40,7 @@ export default function BettingAppPage() {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Betting App</span>
+              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Gaming App</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               Download the official Mahadev Book application for Android & iOS to enjoy live sports and casino payouts on the go.
@@ -54,10 +54,10 @@ export default function BettingAppPage() {
           <Reveal xOffset={-45}>
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white leading-snug">
-                Download the Mahadev Betting App – India's Most Trusted Mobile Betting Exchange
+                Download the Mahadev Gaming App – India's Most Trusted Mobile Gaming Exchange
               </h2>
               <p className="text-zinc-350 leading-relaxed font-light">
-                Looking for a secure and lightning-fast online betting app? The official Mahadev Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
+                Looking for a secure and lightning-fast online Gaming app? The official Mahadev Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 Compatible with both Android and iOS, the mobile app is optimized for low-bandwidth environments, ensuring you never miss a cricket delivery or card flip.
@@ -118,7 +118,7 @@ export default function BettingAppPage() {
                   <div className="flex items-center gap-4 w-full sm:w-auto justify-between sm:justify-end">
                     <span className="text-zinc-400 font-mono text-sm">{m.odds}</span>
                     <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-1.5 bg-amber-500 text-black text-xs font-bold rounded-lg hover:bg-amber-400 transition-colors uppercase">
-                      Bet ID
+                      Game ID
                     </a>
                   </div>
                 </div>

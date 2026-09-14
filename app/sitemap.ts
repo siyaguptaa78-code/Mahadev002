@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '', priority: 1.0, changeFrequency: 'daily' as const },
     { url: '/about', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/blog', priority: 0.9, changeFrequency: 'weekly' as const },
-    { url: '/mahadev-betting-app', priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: '/mahadev-gaming-app', priority: 0.9, changeFrequency: 'monthly' as const },
     { url: '/mahadev-book-id', priority: 0.9, changeFrequency: 'monthly' as const },
     { url: '/faq', priority: 0.7, changeFrequency: 'monthly' as const },
     { url: '/contact', priority: 0.7, changeFrequency: 'monthly' as const },
