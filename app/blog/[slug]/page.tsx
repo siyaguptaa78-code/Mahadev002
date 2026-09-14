@@ -115,7 +115,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           </p>
           <div className="pt-2">
             <a 
-              href="https://wa.me/916026703858"
+              href="https://wa.me/918360750829"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-gradient-to-r from-yellow-400 to-amber-500 text-black font-extrabold px-6 py-3 rounded-xl hover:brightness-110 transition-all duration-300 shadow-md shadow-amber-500/10"

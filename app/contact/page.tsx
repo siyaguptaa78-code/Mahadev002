@@ -5,7 +5,7 @@ import Reveal from '../../components/UI/Reveal';
 import { Mail, MessageSquare, Phone, MapPin, Send, MessageCircle } from 'lucide-react';
 
 export default function ContactPage() {
-  const whatsappUrl = "https://wa.me/916026703858";
+  const whatsappUrl = "https://wa.me/918360750829";
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
 
