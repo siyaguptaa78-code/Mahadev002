@@ -28,10 +28,10 @@ const stats = [
 ];
 
 const games = [
-  { title: "Cricket Betting", desc: "Live IPL, International matches, T20 leagues with competitive odds and real-time markets.", icon: "🏏" },
-  { title: "Football Leagues", desc: "Bet on Premier League, Champions League, La Liga, and Indian Super League events.", icon: "⚽" },
+  { title: "Cricket Gaming", desc: "Live IPL, International matches, T20 leagues with competitive odds and real-time markets.", icon: "🏏" },
+  { title: "Football Leagues", desc: "Game on Premier League, Champions League, La Liga, and Indian Super League events.", icon: "⚽" },
   { title: "Live Casino", desc: "Enjoy live dealer streams of Teen Patti, Andar Bahar, Roulette, and Poker from home.", icon: "🃏" },
-  { title: "Tennis Matches", desc: "Place real-time bets on Grand Slams, ATP tour, and WTA tour tournaments.", icon: "🎾" },
+  { title: "Tennis Matches", desc: "Place real-time games on Grand Slams, ATP tour, and WTA tour tournaments.", icon: "🎾" },
   { title: "Virtual Sports", desc: "Fast-paced digital cricket, football and racing simulations available 24 hours a day.", icon: "🎮" }
 ];
 
@@ -45,8 +45,8 @@ const features = [
 const reviews = [
   { name: "Rahul S.", location: "Mumbai", comment: "Withdrawal credited within 5 minutes! Best platform I've used.", rating: 5 },
   { name: "Priya K.", location: "Delhi", comment: "Got my ID the same day. Super smooth process and amazing support team!", rating: 5 },
-  { name: "Vikram M.", location: "Bangalore", comment: "IPL betting experience was incredible. Real-time updates and fast payouts.", rating: 5 },
-  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Mahadev Book for all my betting.", rating: 5 },
+  { name: "Vikram M.", location: "Bangalore", comment: "IPL Gaming experience was incredible. Real-time updates and fast payouts.", rating: 5 },
+  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Mahadev Book for all my Gaming.", rating: 5 },
   { name: "Suresh P.", location: "Hyderabad", comment: "Best customer service! They resolved my issue in minutes via WhatsApp.", rating: 5 },
   { name: "Riya N.", location: "Chennai", comment: "Mujhe bahut accha experience mila. Payout fast aur secure hai.", rating: 5 }
 ];
@@ -54,42 +54,50 @@ const reviews = [
 const trustPoints = [
   { title: "Expertise", desc: "Built by sports & gaming veterans with 15+ years of proven innovation.", icon: Award },
   { title: "Experience", desc: "Trusted by 1.2M+ users since 2018 with over 60M successful transactions.", icon: Check },
-  { title: "Authority", desc: "Recognized as India's leading betting platform by top industry awards.", icon: Shield },
+  { title: "Authority", desc: "Recognized as India's leading Gaming platform by top industry awards.", icon: Shield },
   { title: "Trust", desc: "SSL encrypted, PCI-DSS compliant, and fair play certified by iTech Labs.", icon: Lock }
 ];
 
 const faqs = [
   {
-    q: "What is Mahadev Book Online Betting ID?",
-    a: "The Mahadev Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
+    q: "What is Mahadev Book?",
+    a: "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
   },
   {
-    q: "How does Mahadev Book work?",
-    a: "Mahadev Book acts as a trusted aggregator. Once you request an ID via WhatsApp, our support agents set up your credentials. You add funds via UPI or bank transfer, receive your betting chips, and log in to the official exchange site. Your winnings can be requested via WhatsApp and are transferred directly to your bank account."
+    q: "How does a Mahadev Book ID work?",
+    a: "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process."
   },
   {
-    q: "How do I register for a new Online Betting ID?",
-    a: "Simply click on any 'Get ID' button to open a chat with our verified agent on WhatsApp. Send a request, provide basic details (name, contact), choose your deposit amount, and your ID will be generated in less than 5 minutes."
+    q: "How can I access Mahadev Book?",
+    a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
   },
   {
-    q: "What games can I play with my Mahadev Book ID?",
-    a: "You can bet on all major sports including Cricket (IPL, World Cup, Test matches), Football (Premier League, UEFA), Tennis, and E-sports. You also get access to classic Indian card games like Teen Patti, Andar Bahar, and live casinos."
+    q: "What sports are available on Mahadev Book?",
+    a: "Available sports can change. Check the current sports or Gaming section on the website for the latest list and availability."
   },
   {
-    q: "How do I deposit money into my Mahadev Book account?",
-    a: "Depositing is quick and secure. Our agents will provide verified UPI IDs, GPay details, or bank accounts. Once you make the payment and send a screenshot, your betting chips will be instantly credited to your ID."
+    q: "Does Mahadev Book provide live sports information?",
+    a: "Check the site's current sports section for any live-event information and the terms that apply to its use."
   },
   {
-    q: "How do I withdraw my winnings?",
-    a: "Withdrawals are available 24/7. Text your WhatsApp agent with your ID username and the amount you want to withdraw. Provide your UPI ID or bank account details, and the funds will be transferred to you in 5 to 10 minutes."
+    q: "How can I get help with my Mahadev Book account?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
   },
   {
-    q: "Is Mahadev Book legal in India?",
-    a: "Mahadev Book operates in a legal grey area. Online betting is governed by state-specific laws in India. While there is no federal law banning online betting platforms hosted outside India, some states have their own restrictions. We advise users to check local regulations."
+    q: "How do I find Mahadev Book login information?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
   },
   {
-    q: "Is Mahadev Book safe and trusted?",
-    a: "Yes. With over 1.2 million active users and millions of completed transactions since 2018, Mahadev Book is widely regarded as India's most stable and secure online betting bookmaker."
+    q: "What payment options are supported?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+  },
+  {
+    q: "What should I do if I have trouble accessing my account?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+  },
+  {
+    q: "Where can I find the latest Mahadev Book updates?",
+    a: "Refer to Mahadev Book's current website information and terms for the most accurate answer."
   }
 ];
 
@@ -108,7 +116,7 @@ const tickerItems = [
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const whatsappUrl = "https://wa.me/916026703858";
+  const whatsappUrl = "https://wa.me/918360750829";
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -135,15 +143,15 @@ export default function Home() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-black text-white leading-tight">
-              Mahadev Book – <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 gold-text-glow">India's Most Trusted</span> Online Betting ID
+              Mahadev Book – <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 gold-text-glow">India's Most Trusted</span> Online Gaming ID
             </h1>
             
             <p className="text-zinc-300 text-lg leading-relaxed font-light">
-              Welcome to <strong className="text-white">Mahadev Book</strong>, the online betting game-changer of all time. Betting isn't just about chance; it's about timing, strategy, and choosing the right platform. In India, the mahadevbook is your trusted gateway to a safe, authorized, and rewarding betting experience.
+              Welcome to <strong className="text-white">Mahadev Book</strong>, the online Gaming game-changer of all time. Gaming isn't just about chance; it's about timing, strategy, and choosing the right platform. In India, the mahadevbook is your trusted gateway to a safe, authorized, and rewarding Gaming experience.
             </p>
             
             <p className="text-zinc-400 leading-relaxed font-light">
-              Our platform ensures every user enjoys an outstanding experience with over <strong className="text-amber-400">60,000 live events</strong> per month, fast payouts, and fully encrypted transactions. Whether you're new or experienced, your verified ID gives you access to advanced tools and smart betting features.
+              Our platform ensures every user enjoys an outstanding experience with over <strong className="text-amber-400">60,000 live events</strong> per month, fast payouts, and fully encrypted transactions. Whether you're new or experienced, your verified ID gives you access to advanced tools and smart Gaming features.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -190,11 +198,11 @@ export default function Home() {
                 
                 <div>
                   <h2 className="text-white font-serif font-bold text-2xl tracking-wide">Mahadev Book</h2>
-                  <p className="text-amber-500 text-sm font-semibold uppercase tracking-wider mt-1">Official Betting Platform</p>
+                  <p className="text-amber-500 text-sm font-semibold uppercase tracking-wider mt-1">Official Gaming Platform</p>
                 </div>
 
                 <p className="text-zinc-400 text-sm font-light">
-                  Join 1.2M+ Indian players on the most trusted fantasy analytics and betting exchange dashboard.
+                  Join 1.2M+ Indian players on the most trusted fantasy analytics and Gaming exchange dashboard.
                 </p>
 
                 <a
@@ -259,14 +267,14 @@ export default function Home() {
             <Reveal xOffset={-40}>
               <div className="space-y-6">
                 <p className="text-zinc-300 text-lg leading-relaxed font-light">
-                  <strong>Mahadev Book</strong> is one of India's most popular and trusted online betting platforms. It is known for its secure system, smooth user experience, and wide variety of games.
+                  <strong>Mahadev Book</strong> is one of India's most popular and trusted online Gaming platforms. It is known for its secure system, smooth user experience, and wide variety of games.
                 </p>
                 <p className="text-zinc-455 leading-relaxed font-light">
                   We bridge the gap between players and premier sportsbooks. With a verified Mahadev Book ID, you gain access to a unified hub for cricket predictions, live odds, and casino events, ensuring fair play and complete safety.
                 </p>
                 <div className="bg-gradient-to-br from-amber-500/10 to-transparent border-l-4 border-amber-500 rounded-r-xl p-6">
                   <h4 className="text-white font-bold text-lg flex items-center gap-2">
-                    <Trophy className="w-5 h-5 text-amber-500" /> India's Most Trusted Betting Platform
+                    <Trophy className="w-5 h-5 text-amber-500" /> India's Most Trusted Gaming Platform
                   </h4>
                   <p className="text-zinc-450 mt-2 font-light text-sm">Trusted by 1.2M+ users since 2018 with over 60M successful transactions. Payouts are instant and secured.</p>
                 </div>
@@ -316,7 +324,7 @@ export default function Home() {
                   <h3 className="text-white font-serif font-semibold text-lg mb-2">{game.title}</h3>
                   <p className="text-zinc-450 text-sm font-light leading-relaxed mb-4 flex-grow">{game.desc}</p>
                   <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400 font-semibold text-sm flex items-center gap-1.5 mt-auto">
-                    Bet Live <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    Game Live <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>
               </Reveal>
@@ -325,7 +333,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. Betting ID Smart Guide */}
+      {/* 4. Gaming ID Smart Guide */}
       <section className="py-20 bg-black border-y border-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -333,11 +341,11 @@ export default function Home() {
             <Reveal xOffset={-50}>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-serif font-black text-white leading-tight">
-                  Get to Know Your <span className="text-amber-500">Betting ID</span>
+                  Get to Know Your <span className="text-amber-500">Gaming ID</span>
                 </h2>
                 <div className="w-16 h-0.5 bg-amber-500 rounded-full"></div>
                 <p className="text-zinc-300 font-light leading-relaxed">
-                  Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform. Think of it as your secure digital passport.
+                  Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online Gaming ecosystem. With it, you can securely place games on sports, casino games, and virtual matches within a single platform. Think of it as your secure digital passport.
                 </p>
 
                 <div className="space-y-4">
@@ -351,14 +359,14 @@ export default function Home() {
                   <div className="flex gap-4 items-start">
                     <span className="w-6 h-6 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-500 flex items-center justify-center font-bold text-sm mt-0.5">2</span>
                     <div>
-                      <h4 className="text-white font-semibold">Explore Betting Markets</h4>
+                      <h4 className="text-white font-semibold">Explore Gaming Markets</h4>
                       <p className="text-zinc-500 text-sm font-light mt-0.5">Access hundreds of cricket and football leagues with one wallet.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
                     <span className="w-6 h-6 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-500 flex items-center justify-center font-bold text-sm mt-0.5">3</span>
                     <div>
-                      <h4 className="text-white font-semibold">Track and Manage Bets</h4>
+                      <h4 className="text-white font-semibold">Track and Manage Games</h4>
                       <p className="text-zinc-500 text-sm font-light mt-0.5">Use your personal dashboard to review outcomes and withdraw instantly.</p>
                     </div>
                   </div>
@@ -369,14 +377,14 @@ export default function Home() {
             <Reveal xOffset={50}>
               <div className="glass-card rounded-2xl p-8 border border-amber-500/20 space-y-6">
                 <h3 className="text-white font-serif font-bold text-xl flex items-center gap-2">
-                  <span>⚖️</span> Responsible Betting
+                  <span>⚖️</span> Responsible Gaming
                 </h3>
                 <p className="text-zinc-400 text-sm font-light leading-relaxed">
-                  Your Mahadev Book ID unlocks exciting opportunities — but it's equally important to bet responsibly. We encourage you to:
+                  Your Mahadev Book ID unlocks exciting opportunities — but it's equally important to game responsibly. We encourage you to:
                 </p>
                 <ul className="space-y-3 text-sm text-zinc-350">
                   <li className="flex items-center gap-2.5 font-light">
-                    <Check className="w-4 h-4 text-amber-500 flex-shrink-0" /> Set daily or weekly betting limits
+                    <Check className="w-4 h-4 text-amber-500 flex-shrink-0" /> Set daily or weekly Gaming limits
                   </li>
                   <li className="flex items-center gap-2.5 font-light">
                     <Check className="w-4 h-4 text-amber-500 flex-shrink-0" /> Avoid chasing losses and play within your means
@@ -406,7 +414,7 @@ export default function Home() {
                 Our Users Speak For Us – <span className="text-amber-500">100% Payouts</span>
               </h2>
               <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-                Read real reviews from verified Mahadev Book players who enjoy our fast and trusted betting services.
+                Read real reviews from verified Mahadev Book players who enjoy our fast and trusted Gaming services.
               </p>
               <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
             </div>
@@ -479,7 +487,7 @@ export default function Home() {
                 Frequently Asked <span className="text-amber-500">Questions</span>
               </h2>
               <p className="text-zinc-400 text-sm font-light">
-                Find answers to the most common queries about registering and betting with Mahadev Book.
+                Find answers to the most common queries about registering and Gaming with Mahadev Book.
               </p>
               <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
             </div>

@@ -10,7 +10,7 @@ const navItems = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Betting App', path: '/mahadev-betting-app' },
+  { name: 'Gaming App', path: '/mahadev-gaming-app' },
   { name: 'Book ID', path: '/mahadev-book-id' },
   { name: 'FAQ', path: '/faq' },
   { name: 'Contact', path: '/contact' }
@@ -33,7 +33,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappUrl = "https://wa.me/916026703858";
+  const whatsappUrl = "https://wa.me/918360750829";
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${

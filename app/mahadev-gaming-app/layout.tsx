@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { generatePageMetadata } from "../../lib/siteConfig";
 
 export const metadata: Metadata = generatePageMetadata(
-  "Blog – Mahadev Book Gaming Insights & Tips",
-  "Read the latest cricket Gaming tips, platform guides, and sports insights on the Mahadev Book Blog.",
-  "/blog"
+  "Mahadev Gaming App – Download for Android & iOS",
+  "Download the Mahadev Gaming App for Android and iOS. Live cricket, casino, instant withdrawals and 24/7 support.",
+  "/mahadev-gaming-app"
 );
 
-export default function BlogLayout({
+export default function GamingAppLayout({
   children,
 }: {
   children: React.ReactNode;

@@ -30,7 +30,7 @@ const faqs = [
 
 export default function MostRunsInIplPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const whatsappUrl = "https://wa.me/916026703858";
+  const whatsappUrl = "https://wa.me/918360750829";
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -286,7 +286,7 @@ export default function MostRunsInIplPage() {
           <div className="mt-16 p-8 rounded-2xl glass-card border border-amber-500/10 text-center space-y-4">
             <h3 className="text-xl font-serif font-bold text-white">Want to put these insights into action?</h3>
             <p className="text-zinc-400 text-sm font-light max-w-md mx-auto">
-              Get your verified Mahadev Book ID on WhatsApp in under 5 minutes and start placing smart bets now.
+              Get your verified Mahadev Book ID on WhatsApp in under 5 minutes and start placing smart games now.
             </p>
             <div className="pt-2">
               <a 
